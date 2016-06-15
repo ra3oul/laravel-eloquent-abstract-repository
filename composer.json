@@ -12,6 +12,6 @@
       "ra3oul\\EloquentAbstractRepository\\": "src/"
     }
   },
-  "minimum-stability": "dev",
-  "require": {}
+  "require": {},
+  "license":"MIT"
 }
