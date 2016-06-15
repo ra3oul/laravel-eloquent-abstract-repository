@@ -13,5 +13,10 @@
     }
   },
   "require": {},
-  "license":"MIT"
+  "license":"MIT",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    }
+  }
 }
