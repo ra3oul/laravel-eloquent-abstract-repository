@@ -230,19 +230,19 @@ $articles = $this->repository->findManyBy('name','rasoul');
 Find by result by multiple values in id
 
 ```php
-$posts = $this->repository->findManyByIds([1,2,3,4,5]);
+$articles = $this->repository->findManyByIds([1,2,3,4,5]);
 ```
 
 Create new entry in Repository
 
 ```php
-$post = $this->repository->create( Input::all() );
+$article = $this->repository->create( Input::all() );
 ```
 
 Update entry in Repository
 
 ```php
-$post = $this->repository->updateOneById(  $id , Input::all());
+$article = $this->repository->updateOneById(  $id , Input::all());
 ```
 
 Delete entry in Repository
