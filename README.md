@@ -30,12 +30,14 @@ composer require ra3oul/eloquent-abstract-repository -dev
 
 ### Laravel
 
-In your `config/app.php` add `Prettus\Repository\Providers\RepositoryServiceProvider::class` to the end of the `providers` array:
+In your `config/app.php` add
+`ra3oul\EloquentAbstractRepository\EloquentAbstractRepositoryServiceProvider::class` to the end of the `providers` array:
 
 ```php
 'providers' => [
     ...
-    Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
+    ra3oul\EloquentAbstractRepository\EloquentAbstractRepositoryServiceProvider::class,
 ],
 ```
 
@@ -228,13 +230,13 @@ $articles = $this->repository->findManyBy('name','rasoul');
 Find by result by multiple values in id
 
 ```php
-$articles = $this->repository->findManyByIds([1,2,3,4,5]);
+$posts = $this->repository->findManyByIds([1,2,3,4,5]);
 ```
 
 Create new entry in Repository
 
 ```php
-$article = $this->repository->create( Input::all() );
+$post = $this->repository->create( Input::all() );
 ```
 
 Update entry in Repository
