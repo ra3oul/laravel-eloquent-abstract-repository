@@ -1,0 +1,17 @@
+{
+  "name": "ra3oul/eloquent-abstract-repository",
+  "description": "laravel eloquent abstract repository to implement repository pattern in easy way",
+  "authors": [
+    {
+      "name": "rasoul abdollahi",
+      "email": "ra3oul.abdollahi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ra3oul\\EloquentAbstractRepository\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
